@@ -162,3 +162,25 @@ body::after {
   border: 1px solid #fff;
   transition: 0.5s;
 }
+@media only screen and (max-width: 800px) {
+  .cards {
+    display: block;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .card {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body::after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  body::before {
+    width: 472px;
+    height: 760px;
+    left: 196px;
+  }
+}
